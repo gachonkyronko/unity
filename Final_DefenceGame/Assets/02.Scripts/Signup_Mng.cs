@@ -10,7 +10,9 @@ public class Signup_Mng : MonoBehaviour
     [SerializeField] InputField emailField;
     [SerializeField] InputField passField;
     public Button SignupButton;
+    public Button BackButton;
     private UnityAction signupaction;
+    private UnityAction backaction;
     // 인증을 관리할 객체
     Firebase.Auth.FirebaseAuth auth;
 
@@ -39,7 +41,8 @@ public class Signup_Mng : MonoBehaviour
     private void Start()
     {
         signupaction = () => OnSignupClick();
-         
+        backaction = () => OnBackClick();
+        BackButton.onClick.AddListener(backaction);
     }
 
     // Update is called once per frame
@@ -48,6 +51,10 @@ public class Signup_Mng : MonoBehaviour
         
     }
     public void OnSignupClick()
+    {
+        SceneManager.LoadScene("Signin_Scene");
+    }
+    public void OnBackClick()
     {
         SceneManager.LoadScene("Signin_Scene");
     }

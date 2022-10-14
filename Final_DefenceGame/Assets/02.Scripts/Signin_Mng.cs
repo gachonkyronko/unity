@@ -48,7 +48,7 @@ public class Signin_Mng : MonoBehaviour
 
     public void OnSigninClick()
     {
-        SceneManager.LoadScene("Home_Scene");
+        SceneManager.LoadScene("SigninHome_Scene");
     }
     public void OnSignupClick()
     {
