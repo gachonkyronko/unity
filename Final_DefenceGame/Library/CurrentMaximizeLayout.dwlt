@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 1014
+  controlID: 4771
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 968
+  controlID: 4746
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -332,7 +332,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 1015
+  controlID: 4689
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -389,7 +389,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6cfbffff
+      m_ExpandedIDs: fce8ffff1ce9ffff3ce9ffff7ce9ffffc8edffff6cfbffffe43e0000f63e0000923f00000e420000a0420000b0470000e647000078480000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -405,7 +405,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -476,21 +476,22 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/0.Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\kyron\\OneDrive\\\uBB38\uC11C\\GitHub\\unity\\Final_DefenceGame"
+  m_LastProjectPath: C:\works\GitHub\unity\Final_DefenceGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 8c3e0000
     m_LastClickedID: 16012
-    m_ExpandedIDs: ffffffff00000000463e00004c3e00004e3e0000503e0000523e0000543e0000563e0000583e0000343f0000383f00003e3f0000463f0000483f0000543f00005a3f0000
+    m_ExpandedIDs: ffffffff00000000fa3f0000fc3f0000fe3f00000040000002400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -516,9 +517,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: e0470000
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000463e00004c3e00004e3e0000503e0000523e0000543e0000563e0000583e0000343f0000383f00003e3f0000463f0000483f0000543f00005a3f0000
+    m_ExpandedIDs: ffffffff00000000fa3f0000fc3f0000fe3f00000040000002400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -543,8 +544,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: e0470000
+    m_LastClickedInstanceID: 18400
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -631,7 +632,7 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 18400
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
