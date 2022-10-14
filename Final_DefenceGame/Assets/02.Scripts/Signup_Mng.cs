@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using Firebase.Auth;
 using UnityEngine.UI;
-public class Signup_Event : MonoBehaviour
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
+public class Signup_Mng : MonoBehaviour
 {
     [SerializeField] InputField emailField;
     [SerializeField] InputField passField;
-
+    public Button SignupButton;
+    private UnityAction signupaction;
     // 인증을 관리할 객체
     Firebase.Auth.FirebaseAuth auth;
 
@@ -24,17 +27,28 @@ public class Signup_Event : MonoBehaviour
             task => {
                 if (!task.IsCanceled && !task.IsFaulted)
                 {
+
                     Debug.Log(emailField.text + "로 회원가입\n");
+                    SignupButton.onClick.AddListener(signupaction);
                 }
                 else
                     Debug.Log("회원가입 실패\n");
             }
             );
     }
+    private void Start()
+    {
+        signupaction = () => OnSignupClick();
+         
+    }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    public void OnSignupClick()
+    {
+        SceneManager.LoadScene("Signin_Scene");
     }
 }

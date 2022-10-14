@@ -425,7 +425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -61, y: -0.0000076294}
+  m_AnchoredPosition: {x: -61, y: -0.000015258789}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &295814289
@@ -646,7 +646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 89, y: -0.000015259}
+  m_AnchoredPosition: {x: 89, y: -0.000015258789}
   m_SizeDelta: {x: 86.9823, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &414816470
@@ -815,7 +815,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2063418406}
-        m_TargetAssemblyTypeName: Signup_Event, Assembly-CSharp
+        m_TargetAssemblyTypeName: Signup_Mng, Assembly-CSharp
         m_MethodName: register
         m_Mode: 1
         m_Arguments:
@@ -2256,6 +2256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emailField: {fileID: 295814289}
   passField: {fileID: 831957282}
+  SignupButton: {fileID: 512963213}
 --- !u!4 &2063418407
 Transform:
   m_ObjectHideFlags: 0

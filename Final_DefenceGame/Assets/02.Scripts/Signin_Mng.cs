@@ -27,7 +27,6 @@ public class Signin_Mng : MonoBehaviour
             task => {
                 if (task.IsCompleted && !task.IsFaulted && !task.IsCanceled)
                 {
-                    
                     SigninButton.onClick.AddListener(signinaction);
                     Debug.Log(emailField.text + " 로 로그인 하셨습니다.");
                      
